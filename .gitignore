@@ -1,0 +1,32 @@
+# Ignore common Python build artifacts and virtual environments
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Numpy artifacts (optional)
+*.npy
+*.npz
+
+# Project-specific
+/raspberry/line-detection/.venv/
